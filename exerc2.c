@@ -8,6 +8,6 @@ int main(){
 	scanf("%f", &n2);
 	printf("Informe valor 3 \n");
 	scanf("%f", &n3);
-	media=n1+n2+n3/2;
+	media=n1+n2+n3/3;
 	printf("Media é: %f", media);	
 }
