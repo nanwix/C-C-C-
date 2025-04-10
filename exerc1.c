@@ -7,5 +7,5 @@ int main(){
    printf("Informe valor 2\n");
    scanf( "%f", &n2);
    soma=n1+n2;
-   printf(" %f Soma é:",  soma);
+   printf(" Soma é: %f",  soma);
 }
