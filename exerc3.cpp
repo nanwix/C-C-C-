@@ -1,12 +1,16 @@
 #include <stdio.h>
 
 int main(){
-	char letra, nome[10];
-	printf("digite uma letra qualquer \n");
-	scanf("%c",&letra);
-	printf("digite um nome \n");
-	scanf("%s",&nome);
-	printf("\n Letra informada = %c",letra);
-	printf("\n Nome informada = %s", nome);
-	
+	float A[10];
+	int i, quadrado[10];
+	for(i=0;i<10;i++){
+		printf("Informe os valores %d \n ", i);
+		scanf("%f", &A[i]);
+	}
+	for(i=0;i<10;i++){
+		quadrado[i]=A[i]*A[i];
+	}
+	for(i=0;i<10;i++){
+		printf("%d ", quadrado[i]);
+	}
 }
